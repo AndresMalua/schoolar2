@@ -26,8 +26,8 @@
 
      if ($res){
           //echo "User has been created succesfully";
-          echo"<script>alert(User has been created . Go to login!)";
-          header('Refesch:0; url=http://localhost/schoolar2/src/login.html');
+          echo"<script>alert('User has been created . Go to login!')</script>";
+          header('Refresh: 0; URL=http://localhost/schoolar2/src/login.html');
      }else{
           echo "Error";
      } 
